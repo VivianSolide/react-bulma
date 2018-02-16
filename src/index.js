@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bulma/css/bulma.css';
 
-///////////////////////////////////////
+////////////////SSH///////////////////////
 
 class Button extends React.Component {
 
@@ -28,6 +28,8 @@ class Button extends React.Component {
     )
   }
 }
+
+///////////////////////////////////////
 
 class Message extends React.Component {
 
@@ -87,6 +89,8 @@ class Message extends React.Component {
   }
 }
 
+///////////////////////////////////////
+
 let dairyMessages = [
   {
     date: new Date("2018-01-01"),
@@ -109,6 +113,8 @@ let dairyMessages = [
     moodLevel: 3
   }
 ]
+
+///////////////////////////////////////
 
 class Diary extends React.Component {
   constructor(props) {
@@ -158,6 +164,7 @@ class Diary extends React.Component {
   }
 }
 
+///////////////////////////////////////
 
 class App extends React.Component {
   render() {
@@ -173,6 +180,8 @@ class App extends React.Component {
     );
   }
 }
+
+///////////////////////////////////////
 
 ReactDOM.render(
   <App />,
