@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bulma/css/bulma.css';
 
-////////////////SSH///////////////////////
+////////////////SSH TEST///////////////////////
 
 class Button extends React.Component {
 
